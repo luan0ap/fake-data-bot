@@ -1,0 +1,27 @@
+{
+  "name": "fake-data-bot",
+  "version": "1.0.0",
+  "description": "Generate fake data, for use in bots",
+  "main": "src/FakeData.js",
+  "scripts": {
+    "test": "jest --watch",
+    "dev": "webpack -w --mode development --module-bind 'js=babel-loader'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luan0ap/fake-data-bot.git"
+  },
+  "keywords": [
+    "data",
+    "fake",
+    "bot",
+    "random",
+    "generate"
+  ],
+  "author": "luan0ap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luan0ap/fake-data-bot/issues"
+  },
+  "homepage": "https://github.com/luan0ap/fake-data-bot#readme"
+}
