@@ -5,7 +5,8 @@
   "main": "src/FakeData.js",
   "scripts": {
     "test": "jest --watch",
-    "dev": "webpack -w --mode development --module-bind 'js=babel-loader'"
+    "build": "webpack --mode production",
+    "dev": "webpack -w --mode development --module-bind js=babel-loader"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,14 @@
   "bugs": {
     "url": "https://github.com/luan0ap/fake-data-bot/issues"
   },
-  "homepage": "https://github.com/luan0ap/fake-data-bot#readme"
+  "homepage": "https://github.com/luan0ap/fake-data-bot#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
 }
