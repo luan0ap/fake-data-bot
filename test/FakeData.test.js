@@ -21,14 +21,6 @@ describe('Tests from randomize function', () => {
     .toEqual(Object.getOwnPropertyNames(fake.defaultData))
   })
 
-  it('Return of function randomize with config in email equal true, is a valid email', () => {
-
-    const regexEmail = /^([^\W][\w\.\+-]*[^\W]*)@([^\W_]*[\w\.-]*[^\W_])$/
-
-    expect(fake.randomize(configRandomize)['email'])
-      .toEqual(expect.stringMatching(regexEmail))
-  })
-
   it('Email configured by false, should return a random string', () => {
 
     const regexEmail = /^([^\W][\w\.\+-]*[^\W]*)@([^\W_]*[\w\.-]*[^\W_])$/
