@@ -1,0 +1,1 @@
+import randomEmail from '../src/utils/randomEmail'
