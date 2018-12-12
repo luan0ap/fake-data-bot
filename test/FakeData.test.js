@@ -29,8 +29,5 @@ describe('Tests from randomize function', () => {
       .not.toEqual(expect.stringMatching(regexEmail))
   })
   
-  it('Randomize array with lenght in config', () => {
-    expect(fake.randomize(configRandomize)['person'].length).toBe(configRandomize.array)
-  })
 })
 
